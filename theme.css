@@ -1,0 +1,432 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#cbm.navbar-default .navbar-brand {
+    color: rgba(212, 88, 66, 1);
+}
+#cbm.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#cbm.navbar-default .navbar-nav>li>a {
+    color: rgba(212, 88, 66, 1);
+    background-color: rgba(248, 248, 248, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+#cbm.navbar-default .navbar-header>a>span {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top:10px;
+}
+#cbm.navbar-default .navbar-header>a {
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 5px;
+}
+#cbm.navbar-default .navbar-nav>li>a:hover,
+#cbm.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(212, 88, 66, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#cbm.navbar-default .navbar-nav>.active>a,
+#cbm.navbar-default .navbar-nav>.active>a:hover,
+#cbm.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(212, 88, 66, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#cbm.navbar-default .navbar-toggle {
+    border-color: white;
+}
+#cbm.navbar-default .navbar-toggle:hover,
+#cbm.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+#cbm.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    height: 4px;
+    border-radius: 999px;
+    width: 40;
+}
+#cbm.navbar-default .navbar-toggle:hover .icon-bar,
+#cbm.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: black;
+}
+.centered-block{
+    float:none;
+    display: block;
+    margin:auto;
+}
+.mt-10{
+    margin-top:10px;
+}
+.mt-25{
+    margin-top:25px;
+}
+.mt-40{
+    margin-top:40px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-65{
+    margin-top:65px;
+}
+.mt-100{
+    margin-top:100px;
+}
+.mt-75{
+    margin-top:75px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.mr-40 {
+      margin-right: 40px;
+    }
+.p-30-20-pct{
+    padding: 30px 20%;
+}
+.p-0{
+    padding-left: 0px !important;
+}
+.p-30{
+    padding:30px;
+}
+.pl-50{
+    padding-left:50px;
+}
+.pr-50{
+    padding-right: 50px;
+}
+.pr-20{
+    padding-right:20px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.f-15 {
+  font-size: 15px;
+}
+.f-16{
+    font-size:16px;
+}
+.f-20{
+    font-size:20px;
+}
+.f-25{
+    font-size:25px;
+}
+.f-40{
+    font-size:40px;
+}
+.w-200{
+    width:200px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-theme{
+    background-color: #D45842;
+}
+.color-theme{
+    color: #D45842;
+}
+.hr{
+    border-bottom: 5px solid #D45842;
+    border-top:none;
+    width: 100%;
+    display: block;
+}
+.btn-slack{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #D45842;
+    padding-left:0;
+}
+.btn-slack img{
+    width: 60px;
+}
+.btn-slack img.medium{
+    width: 50px;
+}
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+#cd-timeline {
+      position: relative;
+      padding: 2em 0;
+    }
+
+    .cd-timeline-img {
+      position: absolute;
+      background-color: white;
+      top: 0;
+      border-radius: 50%;
+      /*box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);*/
+      border: 3px solid rgba(212, 88, 66, 1);
+      width: 50px;
+      height: 50px;
+      left: 38%;
+      /* Force Hardware Acceleration in WebKit */
+      -webkit-transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+    }
+
+    .cd-timeline-img h1 {
+        margin-left: 20%;
+        margin-bottom: -16%;
+        margin-top: -4px;
+        font-size: 47px;
+        font-family: monospace;
+        font-weight: bold;
+        color: rgba(212, 88, 66, 1);
+    }
+
+  .privacy:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .privacy {
+    color: black;
+  }
+@media only screen and (min-width: 768px){
+    .faq{
+      padding-left: 9%;
+    }
+
+    .faq p{
+      font-size: 15px;
+    }
+
+    #cd-timeline::before {
+      /* this is the vertical line */
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 40%;
+      height: 100%;
+      width: 1px;
+      background: #9c9a9a;
+    }
+
+    .cd-timeline-img {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .cd-timeline-block {
+      position: relative;
+      margin: 2em 0;
+    }
+    .cd-timeline-block:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .cd-timeline-content-left{
+        padding-right: 16%;
+    }
+
+    .cd-timeline-content-left button{
+        float: right;
+    }
+
+    .cd-timeline-content-left>img{
+        float: right;
+    }
+
+    .cd-timeline-content-right{
+        margin-left: -5%;
+        padding-right: 0;
+
+    }
+
+    .cd-timeline-content-right h2{
+        margin-top: 0;
+    }
+
+    .cd-timeline-content-right p{
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    .quote p{
+        font-size:25px;
+        text-align:center;
+    }
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 850px) {
+      .cd-timeline-content-left button{
+        font-size: 20px;
+        margin-top: 30%;
+      }
+
+      .cd-timeline-content-left .tent{
+        margin-top: 40%;
+      }
+  }
+
+  @media only screen 
+  and (min-width: 850px) 
+  and (max-width: 1000px) {
+      .cd-timeline-content-left button{
+        margin-top: 30%;
+      }
+
+      .cd-timeline-content-left .tent{
+        margin-top: 30%;
+      }
+  }
+
+  @media only screen 
+  and (min-width: 1000px) 
+  and (max-width: 1120px) {
+      .cd-timeline-content-left button{
+        margin-top: 15%; 
+      }
+      .cd-timeline-content-left .tent{
+        margin-top: 20%;
+      }
+  }
+
+  @media only screen 
+  and (min-width: 900px) 
+  and (max-width: 1050px) {
+      .cd-timeline-img{
+        left: 37%;
+      }
+      .cd-timeline-content-left button{
+        font-size: 20px;
+      }
+  }
+
+  @media only screen 
+  and (min-width: 769px) 
+  and (max-width: 899px) {
+      .cd-timeline-img{
+        left: 36%;
+      }
+      
+  }
+
+
+
+@media only screen and (max-width: 767px){
+    .faq{
+        text-align: center;
+    }
+
+    .main-footer {
+      font-size: 25px;
+    }
+
+    .rights-footer{
+      font-size: 15px;
+    }
+
+    .cd-timeline-content-left{
+        margin-bottom: 10%;
+    }
+
+    button.btn-slack img{
+       width: 45px;
+    }
+
+    button.btn-slack{
+       font-size: 20px;
+
+    }
+
+    .cd-timeline-block {
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .cd-timeline-img {
+        left: 43%;
+    }
+
+    .cd-timeline-img h1{
+        margin-left: 0;
+    }
+
+    .cd-timeline-content-right{
+        margin-top: 15%
+    }
+
+    .cd-timeline-content-right h2{
+        font-size: 22px;
+    }
+
+    .cd-timeline-content-right p{
+        font-weight: bold;
+    }
+    .quote p{
+        font-size:22px;
+        text-align:left;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .human{
+        margin-left:-19%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .human{
+        margin-left:-15%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .sm-text-center{
+        text-align: center;
+    }
+    .last-section{
+        padding:20px 5%;
+    }
+    .last-section button{
+        margin-right:0px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .md-text-right{
+        text-align: right;
+    }
+    .last-section{
+        padding:30px 20%;
+    }
+}
+.pricing{
+    border: 1px inset #eee;
+}
