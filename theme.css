@@ -252,6 +252,24 @@ body{
 
     .cd-timeline-content-left{
         padding-right: 16%;
+        top: 50%;
+        transform: translateY(35%);
+    }
+
+    .icon-absolute{
+        top: 50%;
+        transform: translateY(-130%);
+        position: absolute;
+    }
+
+    .icon-absolute-coffe{
+        top: 50%;
+        transform: translateY(-70%);
+        position: absolute;
+    }
+
+    .icon-absolute-coffe img{
+        margin-right: 8%;
     }
 
     .cd-timeline-content-left button{
@@ -266,6 +284,14 @@ body{
         margin-left: -5%;
         padding-right: 0;
 
+    }
+
+    .cd-timeline-content-right-align{
+        margin-left: 46%;
+    }
+
+    .icon-absolute img{
+        margin-right: 8%;
     }
 
     .cd-timeline-content-right h2{
@@ -288,50 +314,27 @@ body{
   and (max-width: 850px) {
       .cd-timeline-content-left button{
         font-size: 20px;
-        margin-top: 30%;
-      }
-
-      .cd-timeline-content-left .tent{
-        margin-top: 40%;
-      }
-  }
-
-  @media only screen 
-  and (min-width: 850px) 
-  and (max-width: 1000px) {
-      .cd-timeline-content-left button{
-        margin-top: 30%;
-      }
-
-      .cd-timeline-content-left .tent{
-        margin-top: 30%;
       }
   }
 
   @media only screen 
   and (min-width: 1000px) 
   and (max-width: 1120px) {
-      .cd-timeline-content-left button{
-        margin-top: 15%; 
-      }
-      .cd-timeline-content-left .tent{
-        margin-top: 20%;
+      .cd-timeline-img{
+        left: 37%;
       }
   }
 
-  @media only screen 
+ @media only screen 
   and (min-width: 900px) 
   and (max-width: 1050px) {
       .cd-timeline-img{
         left: 37%;
       }
-      .cd-timeline-content-left button{
-        font-size: 20px;
-      }
   }
 
   @media only screen 
-  and (min-width: 769px) 
+  and (min-width: 768px) 
   and (max-width: 899px) {
       .cd-timeline-img{
         left: 36%;
@@ -346,6 +349,14 @@ body{
         text-align: center;
     }
 
+    .top-section{
+      margin-left: 0;
+    }
+
+    .top-section h1{
+      float: none !important;
+    }
+
     .main-footer {
       font-size: 25px;
     }
@@ -356,6 +367,7 @@ body{
 
     .cd-timeline-content-left{
         margin-bottom: 10%;
+        margin-top: 0;
     }
 
     button.btn-slack img{
