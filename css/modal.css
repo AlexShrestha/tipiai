@@ -1,0 +1,123 @@
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+   background-color: #fefefe;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%;
+}
+
+.close {
+   color: #aaa;
+   font-size: 28px;
+   font-weight: bold;
+   position: absolute;
+   top: 5px;
+   right: 10px;
+}
+
+.close:hover,
+.close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+#embed_signup {
+    padding: 2em;
+    max-width: 900px;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    clear:left;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+
+.form-content {
+    top: 500px;
+    width: 93%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #DDDDDD;
+    font-family: 'Source Sans Pro', sans-serif;
+    position:fixed;
+}
+
+.form-control::-moz-placeholder {
+    color: #8F8F8F;
+}
+
+#b_name {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 0;
+    color: black;
+    border-color: #CCCCCC;
+    margin-right: 15px;
+}
+
+#b_email {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 0;
+    color: black;
+    border-color: #CCCCCC;
+    margin-right: 15px;
+}
+
+.btn {
+    max-width: 180px;
+    width: 100%;
+    border-radius: 0px;
+    color: white;
+    background: #639B00;
+    border-color: #639b00;
+}
+
+.form-img {
+    float: left;
+    padding-right: 25px;
+}
+
+#embed_signup h1 {
+    text-align: left;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#embed_signup p {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 1.7em;
+    margin: 1.25em 0;
+    text-align: justify;
+    color: #8B8B8B;
+}
+
+@media only screen and (max-width: 600px) {
+  #embed_signup {
+    height: 100%;
+  }
+  .form-content {
+    display: block;
+    position: relative;
+    top: auto;
+  }
+}
